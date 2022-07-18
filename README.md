@@ -1,4 +1,4 @@
-# Model title
+# SELFIES
 ## Model identifiers
 - Slug: selfies
 - Ersilia ID: eos6pbf
