@@ -28,5 +28,10 @@
     "Publication": "https://arxiv.org/pdf/1905.13741",
     "Source Code": "https://github.com/aspuru-guzik-group/selfies",
     "License": "Apache-2.0",
-    "Contributor": "brosular"
+    "Contributor": "brosular",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pbf.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos6pbf",
+    "Docker Architecture": [
+        "AMD64"
+    ]
 }

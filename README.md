@@ -23,6 +23,11 @@ String representation of small molecules that is more robust than SMILES, since,
 * [Source Code](https://github.com/aspuru-guzik-group/selfies)
 * Ersilia contributor: [brosular](https://github.com/brosular)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos6pbf)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pbf.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos6pbf) (AMD64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://arxiv.org/pdf/1905.13741) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
