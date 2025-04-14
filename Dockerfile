@@ -1,7 +1,7 @@
-FROM bentoml/model-server:0.11.0-py37
+FROM bentoml/model-server:0.11.0-py310
 MAINTAINER ersilia
 
-RUN pip install selfies==2.1.1
+RUN pip install selfies==2.2.0
 
 WORKDIR /repo
 COPY . /repo
