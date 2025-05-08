@@ -41,7 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `245`
+- **Image Size (Mb):** `207.27`
 
+**Computational Performance (seconds):**
+- 10 inputs: `28.86`
+- 100 inputs: `18.72`
+- 10000 inputs: `181.43`
 
 ### References
 - **Source Code**: [https://github.com/aspuru-guzik-group/selfies](https://github.com/aspuru-guzik-group/selfies)
