@@ -4,6 +4,7 @@ String representation of small molecules that is more robust than SMILES, since,
 
 This model was incorporated on 2022-07-14.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos6pbf`
@@ -13,7 +14,7 @@ This model was incorporated on 2022-07-14.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Chemical notation`, `Chemical language model`, `Compound generation`
 
 ### Input
