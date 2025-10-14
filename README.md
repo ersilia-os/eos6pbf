@@ -2,8 +2,7 @@
 
 String representation of small molecules that is more robust than SMILES, since, by design, all SELFIES strings are valid molecules. It is particularly helpful when applied in generative models, as all the SELFIES proposed are valid molecules. The authors also found that on generative models, SELFIES produces more diverse molecules than compared to SMILES.
 
-This model was incorporated on 2022-07-14.
-
+This model was incorporated on 2022-07-14.Last packaged on 2025-10-14.
 
 ## Information
 ### Identifiers
@@ -42,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `326`
-- **Image Size (Mb):** `207.27`
+- **Image Size (Mb):** `287.58`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.86`
-- 100 inputs: `18.72`
-- 10000 inputs: `181.43`
+- 10 inputs: `27.43`
+- 100 inputs: `17.07`
+- 10000 inputs: `21.77`
 
 ### References
 - **Source Code**: [https://github.com/aspuru-guzik-group/selfies](https://github.com/aspuru-guzik-group/selfies)
