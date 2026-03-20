@@ -14,7 +14,10 @@ with open(input_file, "r") as f:
 
 selfies_list = []
 for smi in smiles_list:
-    selfies_list += [selfies.encoder(smi)]
+    try:
+        selfies_list += [selfies.encoder(smi)]
+    except selfies.exceptions.EncoderError:
+        selfies_list += [None]
 
 with open(output_file, "w") as f:
     writer = csv.writer(f, delimiter= " ")
