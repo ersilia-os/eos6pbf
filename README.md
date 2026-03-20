@@ -2,7 +2,7 @@
 
 String representation of small molecules that is more robust than SMILES, since, by design, all SELFIES strings are valid molecules. It is particularly helpful when applied in generative models, as all the SELFIES proposed are valid molecules. The authors also found that on generative models, SELFIES produces more diverse molecules than compared to SMILES.
 
-This model was incorporated on 2022-07-14.Last packaged on 2025-10-14.
+This model was incorporated on 2022-07-14.Last packaged on 2026-03-20.
 
 ## Information
 ### Identifiers
@@ -35,18 +35,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos6pbf](https://hub.docker.com/r/ersiliaos/eos6pbf)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pbf.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pbf.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `309`
-- **Image Size (Mb):** `287.58`
+- **Image Size (Mb):** `290.95`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.43`
-- 100 inputs: `17.07`
-- 10000 inputs: `21.77`
+- 10 inputs: `39.91`
+- 100 inputs: `22.74`
+- 10000 inputs: `32.23`
 
 ### References
 - **Source Code**: [https://github.com/aspuru-guzik-group/selfies](https://github.com/aspuru-guzik-group/selfies)
