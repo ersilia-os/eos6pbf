@@ -1,6 +1,6 @@
 # SELF-referencIng Embedded Strings
 
-String representation of small molecules that is more robust than SMILES, since, by design, all SELFIES strings are valid molecules. It is particularly helpful when applied in generative models, as all the SELFIES proposed are valid molecules. The authors also found that on generative models, SELFIES produces more diverse molecules than compared to SMILES.
+Converts a molecule into SELFIES, a string representation in which every possible sequence corresponds to a valid molecule. Krenn and colleagues designed the grammar so that generative models cannot emit invalid structures, removing a persistent failure mode of SMILES-based generation where ring closures and valences go unsatisfied. The transformation is deterministic and reversible, changing only how the molecule is written rather than anything about the molecule itself.
 
 This model was incorporated on 2022-07-14.Last packaged on 2026-03-20.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2022-07-14.Last packaged on 2026-03-20.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** String representation of a molecule (SELFIE)
+- **Interpretation:** SELFIES string encoding the input molecule in a fully robust syntax.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
