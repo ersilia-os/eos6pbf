@@ -3,7 +3,7 @@
 Converts a molecule into SELFIES, a string notation in which every syntactically possible sequence maps to a valid molecule. Lo, Krenn and colleagues designed the grammar so that generative models cannot emit broken ring closures or impossible valences, the failure mode that wastes a large share of SMILES output, and report that SELFIES-driven generators also cover more diverse chemistry. The conversion is deterministic and reversible, changing how the molecule is written rather than anything about the molecule itself.
 
 This model was incorporated on 2022-07-14.
-Last packaged on 2026-03-20.
+Last packaged on 2026-11-03.
 
 ## Information
 ### Identifiers
@@ -36,18 +36,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos6pbf](https://hub.docker.com/r/ersiliaos/eos6pbf)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pbf.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6pbf.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `312`
-- **Image Size (Mb):** `290.95`
+- **Image Size (Mb):** `284.82`
 
 **Computational Performance (seconds):**
-- 10 inputs: `39.91`
-- 100 inputs: `22.74`
-- 10000 inputs: `32.23`
+- 10 inputs: `27.1`
+- 100 inputs: `16.96`
+- 10000 inputs: `20.92`
 
 ### References
 - **Source Code**: [https://github.com/aspuru-guzik-group/selfies](https://github.com/aspuru-guzik-group/selfies)
