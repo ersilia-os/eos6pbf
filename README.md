@@ -2,7 +2,8 @@
 
 Converts a molecule into SELFIES, a string notation in which every syntactically possible sequence maps to a valid molecule. Lo, Krenn and colleagues designed the grammar so that generative models cannot emit broken ring closures or impossible valences, the failure mode that wastes a large share of SMILES output, and report that SELFIES-driven generators also cover more diverse chemistry. The conversion is deterministic and reversible, changing how the molecule is written rather than anything about the molecule itself.
 
-This model was incorporated on 2022-07-14.Last packaged on 2026-03-20.
+This model was incorporated on 2022-07-14.
+Last packaged on 2026-03-20.
 
 ## Information
 ### Identifiers
